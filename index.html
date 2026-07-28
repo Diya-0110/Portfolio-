@@ -3,250 +3,133 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Diya Lalwani — AI Filmmaker &amp; Visual Storyteller</title>
-<meta name="description" content="Diya Lalwani — AI Creator, AI Filmmaker, Visual Storyteller and Creative Strategist. Turning AI into stories people remember.">
+<title>Diya Lalwani — AI Creator &amp; Creative Director</title>
+<meta name="description" content="Diya Lalwani — AI Creator, Creative Director. Cinematic AI films, speculative documentaries and experimental visual storytelling.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,340;0,9..144,440;0,9..144,560;1,9..144,440&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Scroll progress / "scrubber" -->
-<div class="scrubber" aria-hidden="true">
-  <div class="scrubber-track"><div class="scrubber-fill" id="scrubberFill"></div></div>
-  <div class="scrubber-playhead" id="scrubberPlayhead"></div>
+<!-- OPENING TITLE CARD -->
+<div class="titlecard" id="titlecard" aria-hidden="true">
+  <span class="titlecard-name">Diya Lalwani</span>
+  <span class="titlecard-sub">AI Creator — Creative Director</span>
 </div>
 
-<!-- NAV -->
-<header class="nav" id="nav">
-  <div class="nav-inner">
-    <a href="#top" class="nav-mark">Diya Lalwani</a>
-    <nav class="nav-links" id="navLinks">
+<!-- SCENE RAIL (desktop signature nav) -->
+<nav class="scene-rail" id="sceneRail" aria-label="Section progress">
+  <a href="#hero" data-target="hero"><span></span>Hero</a>
+  <a href="#work" data-target="work"><span></span>Work</a>
+  <a href="#about" data-target="about"><span></span>About</a>
+  <a href="#contact" data-target="contact"><span></span>Contact</a>
+</nav>
+
+<!-- FLOATING NAV -->
+<header class="nav">
+  <div class="nav-pill">
+    <a href="#hero" class="nav-mark">DL</a>
+    <div class="nav-links">
       <a href="#work">Work</a>
-      <a href="#process">Process</a>
-      <a href="#toolbox">Toolbox</a>
       <a href="#about">About</a>
-      <a href="#contact" class="nav-cta">Get in touch</a>
-    </nav>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
-      <span></span><span></span>
-    </button>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="#contact" class="nav-cta">Let's talk</a>
   </div>
 </header>
 
 <!-- HERO -->
-<section class="hero" id="top">
+<section class="hero" id="hero">
+  <div class="hero-glow glow-a" aria-hidden="true"></div>
+  <div class="hero-glow glow-b" aria-hidden="true"></div>
+
   <div class="hero-inner">
-    <p class="timecode reveal" data-reveal>00:00:00:01 — NOW RECORDING</p>
-    <h1 class="hero-headline reveal" data-reveal>
-      Turning <em>AI</em> into<br> stories people <em>remember.</em>
-    </h1>
-    <p class="hero-sub reveal" data-reveal>AI Creator&nbsp;&middot;&nbsp;AI Filmmaker&nbsp;&middot;&nbsp;Visual Storyteller&nbsp;&middot;&nbsp;Creative Strategist</p>
-    <div class="hero-actions reveal" data-reveal>
-      <a href="#work" class="btn btn-primary">View the reel</a>
-      <a href="#contact" class="btn btn-ghost">Start a project</a>
+    <div class="hero-copy">
+      <p class="eyebrow reveal" data-reveal>AI Creator &nbsp;·&nbsp; Creative Director</p>
+      <h1 class="hero-name reveal" data-reveal>Diya Lalwani</h1>
+      <h2 class="hero-headline reveal" data-reveal>Storytelling through <em>AI</em>.</h2>
+      <p class="hero-para reveal" data-reveal>I create cinematic AI films, speculative documentaries, branded storytelling and experimental visual experiences that merge creativity with emerging technology.</p>
+
+      <div class="hero-actions reveal" data-reveal>
+        <a href="#work" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-ghost">Contact</a>
+      </div>
+
+      <div class="hero-footer reveal" data-reveal>
+        <a href="mailto:Diya.aiworks@gmail.com" class="hero-email">Diya.aiworks@gmail.com</a>
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/diyalalwani-aiworks" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9.5 9H13v1.72c.51-.9 1.83-1.85 3.68-1.85 3.24 0 3.82 2.03 3.82 4.68V21h-4v-5.87c0-1.4-.03-3.2-1.95-3.2-1.96 0-2.26 1.53-2.26 3.1V21h-4z"/></svg>
+          </a>
+          <a href="https://x.com/diyalalwani99" target="_blank" rel="noopener" aria-label="X">
+            <svg viewBox="0 0 24 24"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-6.9l-5.4-6.6L4.8 22H1.7l8.1-9.3L1 2h7.1l4.9 6.1zm-1.2 18h1.9L7.4 4H5.4z"/></svg>
+          </a>
+          <a href="https://youtube.com/@DiyaAiWorks" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg viewBox="0 0 24 24"><path d="M23.5 6.7a3 3 0 0 0-2.1-2.1C19.5 4 12 4 12 4s-7.5 0-9.4.6A3 3 0 0 0 .5 6.7 31.6 31.6 0 0 0 0 12a31.6 31.6 0 0 0 .5 5.3 3 3 0 0 0 2.1 2.1C4.5 20 12 20 12 20s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.6 31.6 0 0 0 24 12a31.6 31.6 0 0 0-.5-5.3zM9.6 15.5v-7l6.3 3.5z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-portrait reveal" data-reveal>
+      <div class="portrait-frame">
+        <span class="portrait-placeholder">Portrait<br>1600 × 2000</span>
+      </div>
+      <span class="frame-bracket tl"></span>
+      <span class="frame-bracket tr"></span>
+      <span class="frame-bracket bl"></span>
+      <span class="frame-bracket br"></span>
     </div>
   </div>
-  <div class="hero-frame reveal" data-reveal>
-    <div class="frame-photo" id="heroPhoto">
-      <span class="frame-photo-placeholder">Profile photo<br>1600 × 2000</span>
+</section>
+
+<!-- WORK -->
+<section class="work" id="work">
+  <div class="section-inner">
+    <div class="section-head reveal" data-reveal>
+      <p class="eyebrow">Scene One — The Work</p>
+      <h2>Selected films &amp; experiments</h2>
+      <p class="section-sub">A collection of self-initiated AI films, documentaries and visual experiments — each one an exploration in its own right.</p>
     </div>
-    <div class="frame-corner tl"></div>
-    <div class="frame-corner tr"></div>
-    <div class="frame-corner bl"></div>
-    <div class="frame-corner br"></div>
-    <span class="frame-label">DL — 001</span>
+
+    <div class="project-grid" id="projectGrid"><!-- injected by script.js --></div>
   </div>
-  <div class="scroll-cue" aria-hidden="true"><span></span>Scroll</div>
 </section>
 
 <!-- ABOUT -->
 <section class="about" id="about">
   <div class="section-inner about-grid">
-    <p class="timecode reveal" data-reveal>00:01:12:04 — ABOUT</p>
-    <h2 class="about-text reveal" data-reveal>
-      Hi, I'm Diya Lalwani. I create AI-powered films, documentaries, brand stories and visual experiences by combining storytelling, creativity and emerging technology.
-      <span class="about-text-muted">From research and scripting to prompt engineering and editing, I enjoy transforming ideas into meaningful visual experiences that inform, inspire and engage.</span>
-    </h2>
-  </div>
-</section>
-
-<!-- FEATURED PROJECTS -->
-<section class="work" id="work">
-  <div class="section-inner">
-    <div class="section-head reveal" data-reveal>
-      <p class="timecode">00:02:30:00 — SELECTED REELS</p>
-      <h2>Featured projects</h2>
+    <div class="about-portrait reveal" data-reveal>
+      <div class="portrait-frame small">
+        <span class="portrait-placeholder">Portrait<br>1200 × 1500</span>
+      </div>
     </div>
-
-    <div class="work-grid">
-
-      <article class="reel-card reveal" data-reveal>
-       <a class="reel-thumb"
-   href="https://youtu.be/YOUR_VIDEO_ID"
-   target="_blank"> tabindex="0" role="button" aria-label="Play Dot &amp; Key — Beyond the Brief">
-          <span class="reel-index">REEL 01</span>
-          <span class="play-btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
-          <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg" alt="Dot & Key">
-        </a>
-        <div class="reel-meta">
-          <p class="reel-category">AI Brand Strategy</p>
-          <h3>Dot &amp; Key — Beyond the Brief</h3>
-          <p class="reel-desc">A cinematic AI-powered brand analysis exploring storytelling, positioning and marketing strategy beyond the original campaign brief.</p>
-        </div>
-      </article>
-
-      <article class="reel-card reveal" data-reveal>
-        <div class="reel-thumb" tabindex="0" role="button" aria-label="Play The Future of AI Education">
-          <span class="reel-index">REEL 02</span>
-          <span class="play-btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
-          <span class="reel-thumb-caption">YouTube — add embed / thumbnail</span>
-        </div>
-        <div class="reel-meta">
-          <p class="reel-category">AI Film</p>
-          <h3>The Future of AI Education</h3>
-          <p class="reel-desc">A LEGO-inspired cinematic concept film visualizing the future of AI-powered education through immersive storytelling and AI-generated visuals.</p>
-        </div>
-      </article>
-
-      <article class="reel-card reveal" data-reveal>
-        <div class="reel-thumb" tabindex="0" role="button" aria-label="Play History Lies">
-          <span class="reel-index">REEL 03</span>
-          <span class="play-btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
-          <span class="reel-thumb-caption">YouTube — add embed / thumbnail</span>
-        </div>
-        <div class="reel-meta">
-          <p class="reel-category">AI Documentary Series</p>
-          <h3>History Lies</h3>
-          <p class="reel-desc">A documentary-style AI series bringing forgotten historical events to life through cinematic storytelling.</p>
-        </div>
-      </article>
-
-      <article class="reel-card reveal" data-reveal>
-        <div class="reel-thumb" tabindex="0" role="button" aria-label="Play The Great Indian Maggi Case">
-          <span class="reel-index">REEL 04</span>
-          <span class="play-btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
-          <span class="reel-thumb-caption">YouTube — add embed / thumbnail</span>
-        </div>
-        <div class="reel-meta">
-          <p class="reel-category">AI Documentary</p>
-          <h3>The Great Indian Maggi Case</h3>
-          <p class="reel-desc">A documentary exploring one of India's biggest consumer controversies using AI-powered storytelling and cinematic visuals.</p>
-        </div>
-      </article>
-
-      <article class="reel-card reveal" data-reveal>
-        <div class="reel-thumb" tabindex="0" role="button" aria-label="Play Dinosaurs Planet">
-          <span class="reel-index">REEL 05</span>
-          <span class="play-btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
-          <span class="reel-thumb-caption">YouTube — add embed / thumbnail</span>
-        </div>
-        <div class="reel-meta">
-          <p class="reel-category">Creative Lab</p>
-          <h3>Dinosaurs Planet</h3>
-          <p class="reel-desc">A cinematic AI world-building experiment recreating prehistoric life through visual storytelling.</p>
-        </div>
-      </article>
-
-      <article class="reel-card reveal" data-reveal>
-        <div class="reel-thumb" tabindex="0" role="button" aria-label="Play Birbhum">
-          <span class="reel-index">REEL 06</span>
-          <span class="play-btn" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
-          <span class="reel-thumb-caption">YouTube — add embed / thumbnail</span>
-        </div>
-        <div class="reel-meta">
-          <p class="reel-category">Creative Documentary</p>
-          <h3>Birbhum</h3>
-          <p class="reel-desc">An AI-assisted documentary exploring the culture and identity of Birbhum through cinematic storytelling.</p>
-        </div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<!-- CREATIVE PROCESS -->
-<section class="process" id="process">
-  <div class="section-inner">
-    <div class="section-head reveal" data-reveal>
-      <p class="timecode">00:04:45:00 — HOW IT'S MADE</p>
-      <h2>Creative process</h2>
-    </div>
-
-    <ol class="timeline">
-      <li class="timeline-step reveal" data-reveal>
-        <span class="timeline-code">01</span>
-        <div><h3>Research</h3><p>Grounding every story in real context, references and source material.</p></div>
-      </li>
-      <li class="timeline-step reveal" data-reveal>
-        <span class="timeline-code">02</span>
-        <div><h3>Script</h3><p>Shaping narrative structure, tone and pacing before a single frame exists.</p></div>
-      </li>
-      <li class="timeline-step reveal" data-reveal>
-        <span class="timeline-code">03</span>
-        <div><h3>Storyboard</h3><p>Planning shots, composition and visual rhythm scene by scene.</p></div>
-      </li>
-      <li class="timeline-step reveal" data-reveal>
-        <span class="timeline-code">04</span>
-        <div><h3>Prompt Engineering</h3><p>Translating creative intent into precise, repeatable AI direction.</p></div>
-      </li>
-      <li class="timeline-step reveal" data-reveal>
-        <span class="timeline-code">05</span>
-        <div><h3>AI Generation</h3><p>Producing footage, visuals and voice with the right tool for each shot.</p></div>
-      </li>
-      <li class="timeline-step reveal" data-reveal>
-        <span class="timeline-code">06</span>
-        <div><h3>Editing</h3><p>Cutting, grading and scoring the piece into a cohesive experience.</p></div>
-      </li>
-      <li class="timeline-step reveal" data-reveal>
-        <span class="timeline-code">07</span>
-        <div><h3>Publishing</h3><p>Packaging and releasing the final story to the right audience.</p></div>
-      </li>
-    </ol>
-  </div>
-</section>
-
-<!-- AI TOOLBOX -->
-<section class="toolbox" id="toolbox">
-  <div class="section-inner">
-    <div class="section-head reveal" data-reveal>
-      <p class="timecode">00:06:20:00 — THE TOOLBOX</p>
-      <h2>AI toolbox</h2>
-    </div>
-    <div class="tool-grid">
-      <div class="tool-card reveal" data-reveal><span class="tool-mark">Gp</span><span class="tool-name">ChatGPT</span></div>
-      <div class="tool-card reveal" data-reveal><span class="tool-mark">Cl</span><span class="tool-name">Claude</span></div>
-      <div class="tool-card reveal" data-reveal><span class="tool-mark">Ge</span><span class="tool-name">Gemini</span></div>
-      <div class="tool-card reveal" data-reveal><span class="tool-mark">Ve</span><span class="tool-name">Google Veo</span></div>
-      <div class="tool-card reveal" data-reveal><span class="tool-mark">Rw</span><span class="tool-name">Runway</span></div>
-      <div class="tool-card reveal" data-reveal><span class="tool-mark">Kl</span><span class="tool-name">Kling</span></div>
-      <div class="tool-card reveal" data-reveal><span class="tool-mark">El</span><span class="tool-name">ElevenLabs</span></div>
-      <div class="tool-card reveal" data-reveal><span class="tool-mark">Cv</span><span class="tool-name">Canva</span></div>
-      <div class="tool-card reveal" data-reveal><span class="tool-mark">Cc</span><span class="tool-name">CapCut</span></div>
+    <div class="about-copy reveal" data-reveal>
+      <p class="eyebrow">Scene Two — The Creator</p>
+      <h2>About Me</h2>
+      <p class="about-text">I'm an AI Creator exploring the intersection of storytelling, design and emerging technology. My work spans speculative documentaries, cinematic brand concepts, educational experiences and experimental visual narratives. Every project is independently conceived to explore how AI can enhance creativity, communication and imagination.</p>
     </div>
   </div>
 </section>
 
 <!-- CONTACT -->
 <footer class="contact" id="contact">
+  <div class="contact-glow" aria-hidden="true"></div>
   <div class="section-inner">
-    <p class="timecode reveal" data-reveal>00:08:00:00 — CUT TO BLACK</p>
-    <h2 class="contact-headline reveal" data-reveal>Let's tell your<br>next story.</h2>
-    <a href="mailto:hello@diyalalwani.com" class="contact-email reveal" data-reveal>hello@diyalalwani.com</a>
+    <p class="eyebrow reveal" data-reveal>Scene Three — Get In Touch</p>
+    <h2 class="contact-headline reveal" data-reveal>Let's create something<br><em>extraordinary.</em></h2>
+    <a href="mailto:Diya.aiworks@gmail.com" class="contact-email reveal" data-reveal>Diya.aiworks@gmail.com</a>
 
-    <div class="contact-links reveal" data-reveal>
-      <a href="#" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="mailto:hello@diyalalwani.com">Email</a>
-      <a href="#" target="_blank" rel="noopener">GitHub</a>
-      <a href="#" target="_blank" rel="noopener">Instagram</a>
-      <a href="#" target="_blank" rel="noopener">YouTube</a>
-      <a href="#" target="_blank" rel="noopener">X</a>
+    <div class="contact-buttons reveal" data-reveal>
+      <a href="https://www.linkedin.com/in/diyalalwani-aiworks" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+      <a href="https://x.com/diyalalwani99" target="_blank" rel="noopener" class="btn btn-ghost">X</a>
+      <a href="https://youtube.com/@DiyaAiWorks" target="_blank" rel="noopener" class="btn btn-ghost">YouTube</a>
     </div>
 
     <div class="contact-bottom">
-      <span>© 2026 Diya Lalwani</span>
-      <span>Directed, written &amp; edited in India</span>
+      <span>Designed and created by Diya Lalwani.</span>
+      <span>© 2026</span>
     </div>
   </div>
 </footer>
