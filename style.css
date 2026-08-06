@@ -538,7 +538,14 @@ img{ max-width: 100%; display: block; }
   max-width: 620px;
 }
 .about h2{ font-size: clamp(32px, 3.6vw, 48px); margin: 0 0 26px; }
-
+.about-image{
+    width:100%;
+    height:600px;
+    object-fit:cover;
+    object-position:center top;
+    border-radius:28px;
+    display:block;
+}
 /* ============================================================
    CONTACT
 ============================================================ */
